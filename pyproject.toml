@@ -1,0 +1,14 @@
+[project]
+name = "winagent-mcp"
+version = "0.1.0"
+description = "MCP Server for interacting with Windows Operating System."
+authors = [
+    { name = "Richie Adigwe", email = "richieadigwe@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "psutil>=7.0.0",
+    "ruff>=0.12.9",
+]
